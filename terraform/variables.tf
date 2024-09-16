@@ -5,3 +5,9 @@ variable "bucket_name" {
   type        = string
   default     = "talosi-datalake-serverless"
 }
+
+variable "firehose_name" {
+  description = "The name of the Kinesis Firehose stream"
+  type        = string
+  default     = "talosi-firehose-stream"
+}
