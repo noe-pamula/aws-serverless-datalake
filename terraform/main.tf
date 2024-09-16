@@ -13,3 +13,8 @@ module "acquisition_kinesis_firehose" {
   firehose_name = var.firehose_name
   bucket_arn = module.storage.bucket_arn
 }
+
+module "aquisition_csv_file" {
+  source     = "./modules/csv_ingestion"
+  bucket_arn = module.storage.bucket_arn
+}
