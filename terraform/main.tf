@@ -18,3 +18,8 @@ module "aquisition_csv_file" {
   source     = "./modules/csv_ingestion"
   bucket_arn = module.storage.bucket_arn
 }
+
+module "partage_api" {
+  source     = "./modules/api_gateway"
+  bucket_id = module.storage.bucket_id
+}
