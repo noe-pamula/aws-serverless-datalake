@@ -1,9 +1,9 @@
-output "bucket_arn" {
-    description = "The ARN of the S3 bucket"
-    value       = module.storage.bucket_arn
+output "landing_bucket_id" {
+  description = "The ID of the S3 landing bucket"
+  value       = module.storage.landing_bucket_name
 }
 
-output "bucket_id" {
-    description = "The ID of the S3 bucket"
-    value       = module.storage.bucket_id
+output "raw_bucket_id" {
+  description = "The ID of the S3 raw bucket"
+  value       = module.storage.raw_bucket_name
 }
