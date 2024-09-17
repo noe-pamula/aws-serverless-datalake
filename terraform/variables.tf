@@ -11,3 +11,9 @@ variable "firehose_name" {
   type        = string
   default     = "talosi-firehose-stream"
 }
+
+variable "env" {
+  description = "The environment (e.g., dev, prod)"
+  type        = string
+  default     = "dev"
+}

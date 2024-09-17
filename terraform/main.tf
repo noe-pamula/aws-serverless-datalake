@@ -5,7 +5,7 @@ provider "aws" {
 
 module "storage" {
   source = "./modules/s3_bucket"
-  env    = "dev"
+  env    = var.env
   bu     = "supply"
 }
 
@@ -23,4 +23,9 @@ module "aquisition_csv_file" {
 module "partage_api" {
   source    = "./modules/api_gateway"
   bucket_id = module.storage.bucket_id
+}
+
+module "dynamodb_table" {
+  source = "./modules/dynamodb_table"
+  env = var.env
 }
