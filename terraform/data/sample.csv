@@ -1,0 +1,31 @@
+UserID,Name,Age,Email,Department,Role,Location,Experience_Years,Active
+U001,Alice,37,alice@example.com,Marketing,Consultant,Tokyo,7,No
+U002,Bob,57,bob@example.com,HR,Consultant,Berlin,19,No
+U003,Charlie,48,charlie@example.com,IT,Developer,New York,20,No
+U004,David,35,david@example.com,IT,Engineer,Tokyo,13,No
+U005,Eva,56,eva@example.com,IT,Engineer,Tokyo,7,Yes
+U006,Frank,39,frank@example.com,HR,Analyst,New York,18,No
+U007,Grace,25,grace@example.com,Marketing,Developer,Tokyo,3,Yes
+U008,Hannah,35,hannah@example.com,Marketing,Analyst,New York,12,Yes
+U009,Ian,59,ian@example.com,Marketing,Developer,Paris,12,No
+U010,Jane,40,jane@example.com,HR,Manager,Berlin,7,Yes
+U011,Kevin,41,kevin@example.com,Operations,Manager,Berlin,17,Yes
+U012,Laura,58,laura@example.com,HR,Manager,Paris,14,No
+U013,Mike,47,mike@example.com,HR,Developer,Tokyo,12,Yes
+U014,Nina,36,nina@example.com,IT,Developer,London,13,Yes
+U015,Oscar,22,oscar@example.com,HR,Manager,Paris,20,Yes
+U016,Paula,42,paula@example.com,HR,Manager,Berlin,18,Yes
+U017,Quentin,57,quentin@example.com,Finance,Manager,Tokyo,13,Yes
+U018,Rachel,40,rachel@example.com,Marketing,Manager,London,6,Yes
+U019,Steve,53,steve@example.com,IT,Manager,Tokyo,16,No
+U020,Tina,34,tina@example.com,IT,Manager,New York,11,Yes
+U021,Uma,49,uma@example.com,Marketing,Analyst,London,12,No
+U022,Victor,44,victor@example.com,HR,Manager,London,4,No
+U023,Wendy,42,wendy@example.com,Finance,Analyst,New York,15,Yes
+U024,Xander,30,xander@example.com,Marketing,Analyst,Tokyo,5,Yes
+U025,Yvonne,60,yvonne@example.com,Marketing,Consultant,New York,2,No
+U026,Zach,37,zach@example.com,IT,Manager,Berlin,5,No
+U027,Angela,31,angela@example.com,Operations,Engineer,New York,16,Yes
+U028,Brian,47,brian@example.com,Operations,Consultant,Berlin,1,Yes
+U029,Cathy,42,cathy@example.com,Operations,Consultant,Paris,5,Yes
+U030,Daniel,36,daniel@example.com,Finance,Analyst,New York,1,No
